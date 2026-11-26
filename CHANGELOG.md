@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.10.0](https://github.com/hanscg/terraform-check/compare/v1.9.1...v1.10.0) (2026-11-26)
+
+
+### Features
+
+* add parallel input to check all directories concurrently ([#53](https://github.com/hanscg/terraform-check/issues/53)) ([d869581](https://github.com/hanscg/terraform-check/commit/d8695811051cc5e81f0433b94646621314ec7b97))
+* add support for planning with opentofu ([#37](https://github.com/hanscg/terraform-check/issues/37)) ([dce0cbf](https://github.com/hanscg/terraform-check/commit/dce0cbf3ceea02ce04b1494732f7b2cbba49032d))
+* initial support for passing args to `terraform plan` ([#23](https://github.com/hanscg/terraform-check/issues/23)) ([d86ee78](https://github.com/hanscg/terraform-check/commit/d86ee78c06cf2097d7ca416d9261fa8c3c157472))
+* remove plan from report if comment is too long ([1b6d220](https://github.com/hanscg/terraform-check/commit/1b6d220bb6bfd8c769e546306d05574061c6a2d0))
+* upgrade gha dependencies ([#32](https://github.com/hanscg/terraform-check/issues/32)) ([b01b2c2](https://github.com/hanscg/terraform-check/commit/b01b2c235440c62f1070d76fbec2e11c98a447a3))
+* use tenv for managing terraform versions ([#38](https://github.com/hanscg/terraform-check/issues/38)) ([ba947eb](https://github.com/hanscg/terraform-check/commit/ba947eb458848afc754deca8f991d9bf624bbe5b))
+* use tenv for managing terraform versions. ([ba947eb](https://github.com/hanscg/terraform-check/commit/ba947eb458848afc754deca8f991d9bf624bbe5b))
+
+
+### Bug Fixes
+
+* bump tenv to 4.11.1 ([#50](https://github.com/hanscg/terraform-check/issues/50)) ([c486c26](https://github.com/hanscg/terraform-check/commit/c486c26a74b9e82b8caf069dc2d442eabe2b3d88))
+* check for directory before updating bot comment ([#26](https://github.com/hanscg/terraform-check/issues/26)) ([3dfad69](https://github.com/hanscg/terraform-check/commit/3dfad694ba7ae12a8c8d8adb84fb44fb7c962c9a))
+* correct exclamation emoji in comment ([#24](https://github.com/hanscg/terraform-check/issues/24)) ([6e9ba71](https://github.com/hanscg/terraform-check/commit/6e9ba7107462e9f75a71f4ffa632f9f088317092))
+* fail the check when terraform plan crashes or is killed ([#55](https://github.com/hanscg/terraform-check/issues/55)) ([03f73a9](https://github.com/hanscg/terraform-check/commit/03f73a9e875905937719d2f59dff2bdea0b28766))
+* set auto-install env to true ([#41](https://github.com/hanscg/terraform-check/issues/41)) ([00e0a72](https://github.com/hanscg/terraform-check/commit/00e0a720b3022d275263cbe501440a6f0a796cde))
+* set auto-install to true ([00e0a72](https://github.com/hanscg/terraform-check/commit/00e0a720b3022d275263cbe501440a6f0a796cde))
+* set permissions for release-please ([#57](https://github.com/hanscg/terraform-check/issues/57)) ([72cfb93](https://github.com/hanscg/terraform-check/commit/72cfb93df62eb4db99d934422e109b0a2ef6fce1))
+* tenv download link on ARM ([#44](https://github.com/hanscg/terraform-check/issues/44)) ([f43717c](https://github.com/hanscg/terraform-check/commit/f43717cdd01421c02b3e78470cfc7badf5dfb648))
+* use gha lockfile ([#56](https://github.com/hanscg/terraform-check/issues/56)) ([d74bfd8](https://github.com/hanscg/terraform-check/commit/d74bfd8f5ed6bd64753d2d690702f02dbc5c607d))
+
 ## [1.9.1](https://github.com/HENNGE/terraform-check/compare/v1.9.0...v1.9.1) (2026-11-26)
 
 
